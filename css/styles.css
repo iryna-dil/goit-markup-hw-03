@@ -1,0 +1,229 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #2e2f42;
+}
+
+.nav-studio,
+.nav-portfolio,
+.nav-contacts {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-studio:hover,
+.nav-portfolio:hover,
+.nav-contacts:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.nav-studio:focus,
+.nav-portfolio:focus,
+.nav-contacts:focus {
+  color: #404bbf;
+}
+
+.nav-studio:active,
+.nav-portfolio:active,
+.nav-contacts:active {
+  color: #404bbf;
+}
+
+.mail,
+.tel {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+
+.mail:hover,
+.tel:hover {
+  color: #404bbf;
+}
+
+.mail:focus,
+.tel:focus {
+  color: #404bbf;
+}
+
+.mail:active,
+.tel:active {
+  color: #404bbf;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.web-h {
+  color: #4d5ae5;
+}
+
+.studio-h {
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.studio-main {
+  background: #2e2f42;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
+.button:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
+
+.banking-h,
+.cashless-h,
+.meditation-h,
+.taxi-h,
+.illustrations-h,
+.courses-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.banking-p,
+.cashless-p,
+.meditation-p,
+.taxi-p,
+.illustrations-p,
+.courses-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.features-strategy,
+.features-punctuality,
+.features-diligence,
+.features-tecnologies {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.strategy-p,
+.punctuality-p,
+.diligence-p,
+.tecnologies-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team {
+  background: #f4f4fd;
+}
+
+.mark-li,
+.tom-li,
+.daniel-li,
+.camila-li {
+  background: #fff;
+}
+
+.mark-h,
+.tom-h,
+.daniel-h,
+.camila-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.mark-p,
+.tom-p,
+.daniel-p,
+.camila-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.web-f {
+  color: #4d5ae5;
+}
+.studio-f {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
