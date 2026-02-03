@@ -157,6 +157,10 @@ ul {
   text-decoration: none;
 }
 
+header .logo {
+  margin-right: 76px;
+}
+
 .web-h {
   color: #4d5ae5;
 }
@@ -281,13 +285,15 @@ h2 {
 }
 
 .features li {
-  flex: 1;
+  flex: 0 0 264px;
   text-align: center;
 }
 
 .features li svg {
   display: block;
   margin: 0 auto 8px;
+  width: 264px;
+    height: 260px;
 }
 
 .features h3 {
@@ -309,7 +315,7 @@ h2 {
 }
 
 .team li {
-  flex: 1;
+  flex: 0 0 360px;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -322,6 +328,9 @@ h2 {
   display: block;
   width: 100%;
   height: auto;
+ 
+width: 360px;
+  height: 300px;
 }
 
 .team li h3 {
@@ -345,12 +354,11 @@ h2 {
 .portfolio ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px;
+  gap: 24px;
 }
 
 .portfolio li {
-  flex: 1 1 calc(33.333% - 16px);
-  border-bottom: 1px solid #e7e9fc;
+  flex: 0 0 360px;
   transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -378,12 +386,14 @@ h2 {
 
 
 .team-content {
-  padding: 32px 16px 40px;
+  padding: 32px 16px;
   text-align: center;
 }
 
 .portfolio-content {
-  padding: 32px 16px 40px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .footer {
@@ -398,6 +408,7 @@ h2 {
 
 .footer .logo {
   margin-right: 120px;
+  margin-bottom: 16px;
 
 }
 
