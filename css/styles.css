@@ -38,18 +38,13 @@ ul {
   padding-bottom: 120px;
 }
 
-.studio-main,
-.features,
-.team,
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
+}
+
+
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -189,8 +184,9 @@ h1 {
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;#
+  color: #fff;
 }
+
 
 .button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -211,7 +207,7 @@ h1 {
 .button:hover,
 .button:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
+    background: #404bbf;
 }
 
 .banking-h,
@@ -273,8 +269,6 @@ h2 {
 }
 
 .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .features h2 {
@@ -302,8 +296,6 @@ h2 {
 
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team h2 {
@@ -344,8 +336,6 @@ h2 {
 }
 
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio h2 {
@@ -355,7 +345,7 @@ h2 {
 .portfolio ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px;
 }
 
 .portfolio li {
@@ -386,6 +376,16 @@ h2 {
   color: #434455;
 }
 
+/* content wrappers for team and portfolio */
+.team-content {
+  padding: 32px 16px 40px;
+  text-align: center;
+}
+
+.portfolio-content {
+  padding: 32px 16px 40px;
+}
+
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -403,10 +403,10 @@ h2 {
 .footer-text {
   max-width: 264px;
   font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 
 }
 
