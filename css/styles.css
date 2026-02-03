@@ -315,7 +315,8 @@ h2 {
 }
 
 .team li {
-  flex: 0 0 360px;
+  width: 264px;
+  height: 380px;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -328,9 +329,7 @@ h2 {
   display: block;
   width: 100%;
   height: auto;
- 
-width: 360px;
-  height: 300px;
+  padding: 32px 16px 0;
 }
 
 .team li h3 {
@@ -354,7 +353,7 @@ width: 360px;
 .portfolio ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
 .portfolio li {
