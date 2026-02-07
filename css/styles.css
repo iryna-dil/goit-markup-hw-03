@@ -55,45 +55,53 @@ header {
   align-items: center;
 }
 
-header nav {
+.header .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header nav ul {
+.header .header-nav .header-nav-ul {
   display: flex;
   list-style: none;
 }
 
-header nav ul li {
+.header .header-nav .header-nav-ul .header-studio-li,
+.header .header-nav .header-nav-ul .header-portfolio-li,
+.header .header-nav .header-nav-ul .header-contacts-li {
   margin-right: 40px;
 }
 
-header nav ul li:last-child {
+.header .header-nav .header-nav-ul .header-studio-li:last-child,
+.header .header-nav .header-nav-ul .header-portfolio-li:last-child,
+.header .header-nav .header-nav-ul .header-contacts-li:last-child {
   margin-right: 0;
 }
 
-header nav a {
+.header .header-nav .logo {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 76px;
 }
 
-header address ul {
+.header .header-address .header-address-ul {
   display: flex;
   list-style: none;
 }
 
-header address ul li {
+.header .header-address .header-address-ul .header-mail-li,
+.header .header-address .header-address-ul .header-tel-li {
   margin-right: 40px;
 }
 
-header address ul li:last-child {
+.header .header-address .header-address-ul .header-mail-li:last-child,
+.header .header-address .header-address-ul .header-tel-li:last-child {
   margin-right: 0;
 }
 
-header address a {
+.header .header-address .mail,
+.header .header-address .tel {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -316,8 +324,12 @@ h2 {
   gap: 24px;
 }
 
-.team li {
-  flex: 1;
+.team .mark-li,
+.team .tom-li,
+.team .camila-li,
+.team .daniel-li {
+  width: 264px;
+  flex-shrink: 0;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -326,19 +338,28 @@ h2 {
     0 1px 3px 0 rgba(46, 47, 66, 0.12);
 }
 
-.team li img {
+.team .mark-li .mark-img,
+.team .tom-li .tom-img,
+.team .camila-li .camila-img,
+.team .daniel-li .daniel-img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.team li h3 {
+.team .mark-li .mark-h,
+.team .tom-li .tom-h,
+.team .camila-li .camila-h,
+.team .daniel-li .daniel-h {
   margin-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
 
-.team li p {
+.team .mark-li .mark-p,
+.team .tom-li .tom-p,
+.team .camila-li .camila-p,
+.team .daniel-li .daniel-p {
   margin-bottom: 32px;
   text-align: center;
 }
@@ -358,30 +379,59 @@ h2 {
   gap: 24px;
 }
 
-.portfolio li {
-  flex: 1 1 calc(33.333% - 16px);
+.portfolio .banking,
+.portfolio .cashless,
+.portfolio .meditation, 
+.portfolio .taxi,
+.portfolio .illustrations,  
+.portfolio .courses {
+  width: 360px;
+  flex-shrink: 0;
+  border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
   transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 24px;
 }
 
-.portfolio li:hover {
+.portfolio .banking:hover,
+.portfolio .cashless:hover,
+.portfolio .meditation:hover,
+.portfolio .taxi:hover,
+.portfolio .illustrations:hover,
+.portfolio .courses:hover {
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 3px 0 rgba(46, 47, 66, 0.12);
 }
 
-.portfolio li img {
+.portfolio .banking .banking-img,
+.portfolio .cashless .cashless-img,
+.portfolio .meditation .meditation-img,
+.portfolio .taxi .taxi-img,
+.portfolio .illustrations .illustrations-img,
+.portfolio .courses .courses-img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.portfolio li h3 {
+.portfolio .banking .banking-h,
+.portfolio .cashless .cashless-h,
+.portfolio .meditation .meditation-h,
+.portfolio .taxi .taxi-h,
+.portfolio .illustrations .illustrations-h,
+  .portfolio .courses .courses-h {
   margin: 32px 16px 8px;
 }
 
-.portfolio li p {
+.portfolio .banking .banking-p,
+.portfolio .cashless .cashless-p,
+.portfolio .meditation .meditation-p,
+.portfolio .taxi .taxi-p,
+.portfolio .illustrations .illustrations-p,
+  .portfolio .courses .courses-p {
   margin: 0 16px 32px;
   color: #434455;
 }
@@ -397,16 +447,16 @@ h2 {
 
 .footer .logo {
   margin-right: 120px;
-
+  margin-bottom: 16px;
 }
 
 .footer-text {
   max-width: 264px;
   font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #f4f4fd;
 
 }
 

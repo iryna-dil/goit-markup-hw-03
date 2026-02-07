@@ -19,37 +19,43 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
-  <body class="container">
-    <header>
-      <nav>
+  <body>
+    <header class="header container">
+      <nav class="header-nav">
         <a href="./index.html" class="logo"
           ><span class="web-h">Web</span><span class="studio-h">Studio</span></a
         >
-        <ul>
-          <li><a href="./index.html" class="nav-studio">Studio</a></li>
-          <li><a href="#portfolio" class="nav-portfolio">Portfolio</a></li>
-          <li><a href="#contacts" class="nav-contacts">Contacts</a></li>
+        <ul class="header-nav-ul">
+          <li class="header-studio-li">
+            <a href="./index.html" class="nav-studio">Studio</a>
+          </li>
+          <li class="header-portfolio-li">
+            <a href="#portfolio" class="nav-portfolio">Portfolio</a>
+          </li>
+          <li class="header-contacts-li">
+            <a href="#contacts" class="nav-contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
+      <address class="header-address">
+        <ul class="header-address-ul">
+          <li class="header-mail-li">
             <a href="mailto:info@devstudio.com" class="mail"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-tel-li">
             <a href="tel:+110001111111" class="tel">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
     <main>
-      <section id="studio" class="studio-main" class="container">
+      <section id="studio" class="studio-main container">
         <h1 class="studio-text">Effective Solutions for Your Business</h1>
         <button type="button" class="button">Order Service</button>
       </section>
-      <section class="features" class="container">
+      <section class="features container">
         <h2>Our Features</h2>
         <ul>
           <li>
@@ -82,12 +88,13 @@
           </li>
         </ul>
       </section>
-      <section id="team" class="team" class="container">
+      <section id="team" class="team container">
         <h2>Our Team</h2>
         <ul>
           <li class="mark-li">
             <a href="#mark-guerrero">
               <img
+                class="mark-img"
                 src="./images/img_Mark_Guerrero.jpg"
                 alt="Portrait of Mark Gaerrero, Product Designer"
                 width="264"
@@ -100,6 +107,7 @@
           <li class="tom-li">
             <a href="#tom-ford">
               <img
+                class="tom-img"
                 src="./images/img_Tom_Ford.jpg"
                 alt="Portrait of Tom Ford, Frontend Developer"
                 width="264"
@@ -112,6 +120,7 @@
           <li class="camila-li">
             <a href="#camila-garcia">
               <img
+                class="camila-img"
                 src="./images/img_Camila_Garcia.jpg"
                 alt="Portrait of Camila Garcia, Marketing"
                 width="264"
@@ -124,6 +133,7 @@
           <li class="daniel-li">
             <a href="#daniel-wilson">
               <img
+                class="daniel-img"
                 src="./images/img_Daniel_Wilson.jpg"
                 alt="Portrait of Daniel Wilson, UI Designer"
                 width="264"
@@ -135,12 +145,13 @@
           </li>
         </ul>
       </section>
-      <section id="portfolio" class="portfolio" class="container">
+      <section id="portfolio" class="portfolio container">
         <h2>Our Portfolio</h2>
         <ul>
           <li class="banking">
             <a href="#banking-App">
               <img
+                class="banking-img"
                 src="./images/Banking_App.jpg"
                 alt="Screenshot of Banking App"
                 width="360"
@@ -153,6 +164,7 @@
           <li class="cashless">
             <a href="#cashless-payment">
               <img
+                class="cashless-img"
                 src="./images/Cashless_Payment.jpg"
                 alt="Photo of Payment"
                 width="360"
@@ -165,6 +177,7 @@
           <li class="meditation">
             <a href="#meditation-app">
               <img
+                class="meditation-img"
                 src="./images/Meditation_App.jpg"
                 alt="Screenshot of Meditation App"
                 width="360"
@@ -177,6 +190,7 @@
           <li class="taxi">
             <a href="#taxi-service">
               <img
+                class="taxi-img"
                 src="./images/Taxi_Service.jpg"
                 alt="Screenshot of Taxi Service"
                 width="360"
@@ -189,6 +203,7 @@
           <li class="illustrations">
             <a href="#screen-illustrations">
               <img
+                class="illustrations-img"
                 src="./images/Screen_Illustrations.jpg"
                 alt="Screenshot of Screen Illustrations"
                 width="360"
@@ -201,6 +216,7 @@
           <li class="courses">
             <a href="#online-courses">
               <img
+                class="courses-img"
                 src="./images/Online_Courses.jpg"
                 alt="Photo with women with a Phone"
                 width="360"
@@ -213,7 +229,7 @@
         </ul>
       </section>
     </main>
-    <footer class="footer" class="container">
+    <footer class="footer container">
       <a href="./index.html" class="logo"
         ><span class="web-f">Web</span><span class="studio-f">Studio</span></a
       >
