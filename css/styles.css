@@ -47,8 +47,6 @@ ul {
 }
 
 header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: space-between;
@@ -197,7 +195,7 @@ h1 {
   line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;#
+  color: #fff;
 }
 
 .button {
@@ -248,6 +246,14 @@ h1 {
   color: #434455;
 }
 
+.features-strategy-li,
+.features-punctuality-li,
+.features-diligence-li,
+.features-tecnologies-li {
+  width: 264px;
+  flex-shrink: 0;
+}
+
 .features-strategy,
 .features-punctuality,
 .features-diligence,
@@ -289,19 +295,17 @@ h2 {
   margin-bottom: 72px;
 }
 
-.features ul {
+.features-ul {
   display: flex;
   gap: 24px;
 }
 
-.features li {
-  flex: 1;
-  text-align: center;
-}
-
-.features li svg {
-  display: block;
-  margin: 0 auto 8px;
+.features-strategy-li,
+.features-punctuality-li,
+.features-diligence-li,
+.features-tecnologies-li {
+  width: 264px;
+  flex-shrink: 0;
 }
 
 .features h3 {
@@ -319,15 +323,15 @@ h2 {
   text-align: center;
 }
 
-.team ul {
+.team-ul {
   display: flex;
   gap: 24px;
 }
 
-.team .mark-li,
-.team .tom-li,
-.team .camila-li,
-.team .daniel-li {
+.mark-li,
+.tom-li,
+.camila-li,
+.daniel-li {
   width: 264px;
   flex-shrink: 0;
   background-color: #fff;
@@ -338,29 +342,31 @@ h2 {
     0 1px 3px 0 rgba(46, 47, 66, 0.12);
 }
 
-.team .mark-li .mark-img,
-.team .tom-li .tom-img,
-.team .camila-li .camila-img,
-.team .daniel-li .daniel-img {
+.mark-img,
+.tom-img,
+.camila-img,
+.daniel-img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.team .mark-li .mark-h,
-.team .tom-li .tom-h,
-.team .camila-li .camila-h,
-.team .daniel-li .daniel-h {
-  margin-top: 32px;
+.team-content {
+  padding: 32px 16px;
+}
+
+.mark-h,
+.tom-h,
+.camila-h,
+.daniel-h {
   margin-bottom: 8px;
   text-align: center;
 }
 
-.team .mark-li .mark-p,
-.team .tom-li .tom-p,
-.team .camila-li .camila-p,
-.team .daniel-li .daniel-p {
-  margin-bottom: 32px;
+.mark-p,
+.tom-p,
+.camila-p,
+.daniel-p {
   text-align: center;
 }
 
@@ -377,6 +383,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio .banking,
@@ -387,15 +394,9 @@ h2 {
 .portfolio .courses {
   width: 360px;
   flex-shrink: 0;
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
   transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  gap: 24px;
-}
-
-.portfolio .banking:hover,
-.portfolio .cashless:hover,
 .portfolio .meditation:hover,
 .portfolio .taxi:hover,
 .portfolio .illustrations:hover,
@@ -422,8 +423,8 @@ h2 {
 .portfolio .meditation .meditation-h,
 .portfolio .taxi .taxi-h,
 .portfolio .illustrations .illustrations-h,
-  .portfolio .courses .courses-h {
-  margin: 32px 16px 8px;
+.portfolio .courses .courses-h {
+  margin-bottom: 8px;
 }
 
 .portfolio .banking .banking-p,
@@ -431,9 +432,13 @@ h2 {
 .portfolio .meditation .meditation-p,
 .portfolio .taxi .taxi-p,
 .portfolio .illustrations .illustrations-p,
-  .portfolio .courses .courses-p {
-  margin: 0 16px 32px;
+.portfolio .courses .courses-p {
+  margin: 0;
   color: #434455;
+}
+
+.portfolio-content {
+  padding: 32px 16px;
 }
 
 .footer {
@@ -453,11 +458,10 @@ h2 {
 .footer-text {
   max-width: 264px;
   font-weight: 400;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #f4f4fd;
-
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .web-f {
