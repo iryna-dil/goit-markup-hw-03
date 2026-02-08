@@ -361,13 +361,23 @@ h2 {
 .camila-h,
 .daniel-h {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .mark-p,
 .tom-p,
 .camila-p,
 .daniel-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   text-align: center;
 }
 
@@ -395,8 +405,6 @@ h2 {
 .portfolio .courses {
   width: 360px;
   flex-shrink: 0;
-  border: 1px solid #e7e9fc;
-  border-top: none;
   transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio .meditation:hover,
@@ -440,6 +448,8 @@ h2 {
 }
 
 .portfolio-content {
+  border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
 }
 
